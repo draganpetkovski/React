@@ -1,4 +1,4 @@
 # React
 
-## Link of application
+### Link of applications
 [Travel Items](https://travel-itemsdp.netlify.app/)
