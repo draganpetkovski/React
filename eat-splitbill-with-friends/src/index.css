@@ -1,0 +1,179 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.item-continer {
+  /* max-width: 400px; */
+  display: grid;
+  grid-template-columns: 4.8rem 1.2fr auto;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 2rem;
+}
+
+.item-continer:hover {
+  background-color: #fff4e6;
+  border-radius: 5%;
+}
+
+.App {
+  width: 80%;
+  margin: 1rem auto;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  font-size: 1.4rem;
+  color: #343a40;
+}
+.content :first-child {
+  font-weight: 700;
+}
+
+.select-btn {
+  background-color: rgba(234, 137, 9, 0.818);
+  padding: 0.8rem 1.2rem;
+  border-radius: 10%;
+  font-weight: 700;
+  border: none;
+  font-size: 1rem;
+  color: #343a40;
+  cursor: pointer;
+}
+
+.Items-list {
+  width: 540px;
+  /* width: 540px;
+  display: flex;
+  flex-direction: column; */
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.Items-list > .add-btn {
+  align-self: last baseline;
+  margin-right: 2rem;
+  padding: 0.5rem 1.4rem;
+}
+
+.bill {
+  width: 540px;
+  background-color: #fff4e6;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
+  font-size: 1.4rem;
+  border-radius: 2%;
+}
+.bill-item {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.bill-item > input {
+  border-radius: none;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff4e6;
+  gap: 0rem;
+}
+
+.form-item {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.2rem;
+  padding: 2rem;
+}
+
+.form-item [type="text"] {
+  padding: 0.8rem 2rem;
+
+  border-radius: 5%;
+}
+
+.close {
+  float: right;
+  background-color: rgba(234, 137, 9, 0.818);
+  padding: 0.8rem 1.2rem;
+  border-radius: 10%;
+  font-weight: 700;
+  border: none;
+  font-size: 1rem;
+  color: #343a40;
+  cursor: pointer;
+  margin-left: 1rem;
+  width: fit-content;
+  margin-top: 1rem;
+}
+
+.add {
+  background-color: rgba(234, 137, 9, 0.818);
+  padding: 0.8rem 1.2rem;
+  border-radius: 10%;
+  font-weight: 700;
+  border: none;
+  font-size: 1rem;
+  color: #343a40;
+  cursor: pointer;
+  float: left;
+}
+
+.bill input[type="text"] {
+  padding: 0.8rem 2rem;
+
+  border-radius: 5%;
+}
+
+.bill select {
+  padding: 0.8rem 2rem;
+  border: none;
+  background-color: #d0dae4;
+  font-weight: 700;
+}
+
+.main-cont {
+  width: 80%;
+  display: flex;
+  align-items: start;
+  margin: 5rem auto;
+  gap: 1rem;
+}
+
+.split {
+  float: right;
+  background-color: rgba(234, 137, 9, 0.818);
+  padding: 0.8rem 1.2rem;
+  border-radius: 10%;
+  font-weight: 700;
+  border: none;
+  font-size: 1rem;
+  color: #343a40;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.buttons-2 {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+}
